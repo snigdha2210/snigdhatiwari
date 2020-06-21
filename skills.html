@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <meta name="author" content="Snigdha Tiwari">
+    <meta name="keywords" content="profile website,BITS PILANI,Snigdha,Tiwari,Engineer">
+<!--New-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <style type="text/css">
+/*Skills*/
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #444444;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+   .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #444444;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.Skills {
+  padding-top: 1cm;
+  padding-bottom: 1cm;
+  background-color: #444444;
+  /*align-items: center;
+  justify-content: center;
+  align-content: center;*/
+  display: flex;
+  flex-direction: column;
+  /* width: 25%;*/
+  text-align: center;
+  align-items: center;
+  /* margin-left: initial;*/
+}
+.Skills img {
+  height: 100px;
+  /*display: flex;
+  flex-direction: column;
+  float: left;*/
+  /*padding-left: 0.3cm;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /*-webkit-filter: grayscale(100%);
+  filter: grayscale(100%);*/
+}
+
+.flex{
+  display: flex;
+    /* width: 10px; */
+    flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+div.container-fluid p{
+    font-size: 20px;
+}
+  </style>
+   <link rel="stylesheet" href="css/main.css">
+  <title>Skills</title>
+</head>
+
+<body>
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">
+            About Me
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="work.html" class="nav-link">
+            My Work
+          </a>
+        </li>
+        <li class="nav-item current">
+          <a href="skills.html" class="nav-link">
+            My Skills
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">
+            How To Reach Me
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="work">
+    <h1 style="font-size: 50px">Technologies
+      <span style="color: #EECE1A;"> I have worked on:</span></h1>
+    
+    <br>
+    <h5 class="sm-heading" style="background-color: rgba(73, 73, 73, 0.5);padding: 0.5rem 1rem;">
+    Working on many more...</h5>
+    <br>
+    <section id="Skills" >
+  <div class="Skills">
+     <div class="container-fluid">
+      <div class="row my-5">
+        <div class="col container">
+          <img src="https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png" height="100px" alt="C language">
+          <div class="overlay">
+            <div class="text" style="color: white"><p>C</p></div>
+          </div>
+        </div>
+        <div class="col container">
+          <img src="https://img.icons8.com/color/96/000000/javascript.png" height="100px" alt="Javascript">
+          <div class="overlay">
+            <div class="text" style="color: white"><p>Javascript</p></div>
+          </div>
+        </div>
+        <div class="col container">
+          <img src="https://img.icons8.com/color/96/000000/html-5.png" height="100px" alt="HTML 5">
+          <div class="overlay">
+            <div class="text" style="color: white"><p>HTML(5)</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col container">
+          <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-opencode-css-8.png" height="100px" alt="CSS 3">
+          <div class="overlay">
+            <div class="text" style="color: white"><p>CSS(3)</p></div>
+          </div>
+        </div>
+        <div class="col container">
+          <img src="https://img.icons8.com/color/96/000000/bootstrap.png" height="100px" alt="Bootstrap">
+          <div class="overlay">
+            <div class="text" style="color: white"><p>Bootstrap</p></div>
+          </div>
+        </div>
+        <div class="col container">
+          <img src="https://img.icons8.com/ios-filled/100/000000/mysql-logo.png" height="100px" alt="MySql">
+          <div class="overlay">
+            <div class="text" style="color: white"><p>MySql</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        
+        <div class="col container">
+          <img src="https://img.icons8.com/color/96/000000/c-plus-plus-logo.png" height="100px" alt="C++">
+          <div class="overlay">
+            <div class="text" style="color: white"><p>C++</p></div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <hr>
+  </div>
+</section>
+    
+   
+  </main>
+  
+<div class="copyright">
+    <p>
+        Copyright 2020 @Snigdha Tiwari
+    </p>
+</div> 
+  
+
+  <script src="js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
